@@ -1,0 +1,36 @@
+@import './reset.css';
+@import './common.css';
+
+.header {
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 72rem;
+    padding: 0 2.5rem;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.header .logo {}
+.header .logo img {}
+
+.header .menu-icon {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.25rem;
+    display: flex;
+}
+.header .menu-icon .burger-top, .header .menu-icon .burger-btm {
+    width: 1.5rem;
+    height: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #fff;
+
+    
+}
+.header .menu-icon .burger-btm {}
+.header .touch-area {
+    text-align: right;
+}
